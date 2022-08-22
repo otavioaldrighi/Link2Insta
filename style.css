@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+:root {
+    --bgcolor: #292a2b;
+    --bglinks: #4b374b;
+    --bgportfolio: #000000;
+}
+
+body{
+    background-image: url(https://marquesfernandes.com/wp-content/uploads/2019/03/references-3840x2160-icons-dark-neon-hd-4k-10903-scaled.png);
+    background-size: cover;
+}
+
+.foto{
+    width: 150px;
+    height: 150px ;
+    border-radius: 50%;
+    
+}
+.titulos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bgcolor);
+    padding: 10px;
+    font-family: 'Silkscreen', cursive
+}
+
+.titulos h1 {
+    font-size: 1.6rem;
+}
+
+.titulos h2{
+    font-size: 1.2rem;
+}
+
+.linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw ;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.linktree a {
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Silkscreen', cursive
+}
+
+.linktree a:hover {
+    background-color: var(--bgcolor);
+}
+
+.portfolio{
+    background-color: var(--bgportfolio);
+}
+.instagram {
+    background-color:var(--bglinks);
+    color: black;
+}
+.twitter{
+    background-color: var(--bglinks);
+    color: black;
+}
+.telegram {
+    background-color: var(--bglinks);
+    color: black;
+}
+.linkedin{
+    background-color: var(--bglinks);
+    color: black;
+}
+.github{
+    background-color: var(--bglinks);
+    color: black;
+}
+
